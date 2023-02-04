@@ -1,0 +1,43 @@
+body{
+    background-image: url("./attachment/1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+}
+#btn{
+    display: block;
+    font-size: 40px;
+    border-radius: 30px;
+    padding: 20px;
+    font-family: 'Advent Pro', sans-serif;
+    background-color: rgba(255, 255, 255, 0.694);
+    
+}
+#btn:hover{
+    background-color: #adccd8;
+    color: #eeebe4;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em white;
+    box-shadow: 2px 8px 11px 4px rgba(255, 255, 255, 0.76);
+    border: 1px solid white;
+    cursor: pointer;
+}
+#par{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.806);
+    font-size: 40px;
+    border-radius: 30px;
+    padding: 20px;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+    border: 1px solid black;
+}
